@@ -4,31 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 align = "center" id="title">hello world</h1>
+    <form action="/upload" method="post">
+    <div class="upload-btn-wrapper">
+        <button class="btn">Upload a file</button>
+        <input type="file" name="myfile" />
+        
+    </div>
+    <input class="btn2" type="submit">
+    </form>
 
-    <ul>
-        <li class="list-item">about</li>
-        <li class="list-item">contact</li>
-        <li class="list-item">services</li>
-        <li class="list-item">home</li>
-    </ul>
-    <hr/>
-    
-    <input type="text" id="input" value="react"/>
-    <select name="" id="select">
-        <option value="iran">iran</option>
-        <option value="tehran">tehran</option>
-        <option value="usa">usa</option>
-    </select>
-    <hr>
-
-    <button onclick="clickFun()">change h1 color</button>
-    <hr>
-    <img src="bulboff.jpg" alt="bulboff" id="bulb">
-
-    <button onclick="clickFun2()" id="btn">Turn on</button>
-    <script src="script2.js"></script>
 </body>
 </html>
